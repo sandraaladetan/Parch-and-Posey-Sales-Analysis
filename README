@@ -1,0 +1,72 @@
+An analysis of the parch and posey data set using Sql
+
+
+
+Introduction
+To operate effectively in marketing, businesses need analysis of their data. These analyses offer insightful information about how their organizations are doing in terms of sales and help to guide important business choices. They can find areas for improvement, assess the success of their sales tactics, and reach well-informed judgments by evaluating sales data.
+The goal of this analysis is to uncover significant insights that can be used by the company  to assess their performances, pinpoint areas for development, and make wise decisions that promote expansion and profitability.
+
+Below is the process flowchart I followed in this analysis;
+• data extraction
+
+• data transformation and cleaning
+
+• visualisation
+
+• insight
+
+• conclusion
+
+I intend to answer the following questions through this analysis;
+
+1. What are the top-selling products?
+
+2. In which Region do the top-selling products belong?
+
+3. Which channel sees the highest customer purchases?
+
+4. Which website experiences higher traffic?
+
+5. How does the yearly sales performance evaluate?
+
+6. Could you provide a performance report for the primary point of contact (POC) and sales representative? and 
+
+
+DATA COLLECTION 
+
+The data was retrieved from the company's database using SQL, encompassing five tables: web_events, accounts, order, sales_rep, and region. These tables were linked through unique primary and foreign keys.
+
+DATA CLEANING AND TRANSFORMATION 
+
+The datasets were imported into Power Query in Power BI for meticulous cleaning. This crucial step in the data analysis process ensures the accuracy and credibility of insights derived from the data. During this phase, I addressed data types, resolved duplicates, managed null values, and rectified any incorrect spellings. Additionally, a conditional column was created to extract the year from the "date and time" column, subsequently renaming it to "Year".
+
+EXPLORATORY ANALYSIS AND VISUALIZATION 
+
+The analysis was conducted using Power BI for visualization and it addressed the questions posed earlier in the data requirement gathering process.
+
+INSIGHT
+
+1. Standard paper, being the least expensive option, boasts the highest purchase rate, whereas poster paper, despite being the priciest, experiences the lowest sales.
+
+2. The Northeast Region consistently achieved the highest sales over the years.
+
+3. The majority of top customers originate from the direct channel.
+
+4. Alicia Desrosier maintained her position as the top point of contact (POC) for three consecutive years (2013-2015).
+
+5. 2016 stood out with the highest sales over the four-year period.
+
+RECOMMENDATION 
+
+1.Product Mix Optimization: Given that Standard paper is the highest selling product, consider strategies to further promote and optimize this product line. For poster paper, explore opportunities to enhance its appeal or adjust pricing strategies.
+
+2. Regional Focus: Since the Northeast Region has consistently shown the highest sales, consider allocating additional resources or marketing efforts in this region to maintain or potentially increase market share.
+
+3. Channel Strategy: Given that the direct channel has the highest customer purchase, consider strategies to further strengthen this channel, such as targeted marketing campaigns or improved customer support.
+
+4. Primary Point of Contact (POC) Retention: Recognize and reward the top POC for their consistent performance over the three-year period. This could include incentives, recognition programs, or additional support to help them continue their success.
+
+5. Yearly Sales Strategies: Analyze the factors that contributed to the spike in sales in 2016. Consider replicating successful strategies from that year in subsequent years.
+
+6. Continuous Data Quality Management: Ensure ongoing data cleaning and validation processes to maintain the accuracy and reliability of future analyses.
+
