@@ -17,6 +17,7 @@ Below is the process flowchart I followed in this analysis;
 
 • conclusion
 
+
 I intend to answer the following questions through this analysis;
 
 1. What are the top-selling products?
@@ -44,6 +45,7 @@ EXPLORATORY ANALYSIS AND VISUALIZATION
 
 The analysis was conducted using Power BI for visualization and it addressed the questions posed earlier in the data requirement gathering process.
 
+
 INSIGHT
 
 1. Standard paper, being the least expensive option, boasts the highest purchase rate, whereas poster paper, despite being the priciest, experiences the lowest sales.
@@ -55,6 +57,7 @@ INSIGHT
 4. Alicia Desrosier maintained her position as the top point of contact (POC) for three consecutive years (2013-2015).
 
 5. 2016 stood out with the highest sales over the four-year period.
+
 
 RECOMMENDATION 
 
